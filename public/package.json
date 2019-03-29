@@ -1,0 +1,23 @@
+{
+  "name": "groupride",
+  "version": "1.0.0",
+  "description": "Ridesharing social networking application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdward/GroupRideWeb.git"
+  },
+  "author": "RPI GroupRide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zdward/GroupRideWeb/issues"
+  },
+  "homepage": "https://github.com/zdward/GroupRideWeb#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}

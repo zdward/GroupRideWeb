@@ -2,9 +2,10 @@
   "name": "groupride",
   "version": "1.0.0",
   "description": "Ridesharing social networking application",
-  "main": "server.js",
+  "main": "js/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main"
   },
   "repository": {
     "type": "git",

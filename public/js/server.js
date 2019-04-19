@@ -15,6 +15,16 @@ app = express();
 const port = 4000;
 
 // ADD DATABASE CONNECTION
+// Seems like Alex needs to fill this out
+mongoose
+  .connect(
+    `mongodb+srv://alex:<password>@cluster0-xu8sb.mongodb.net/test?retryWrites=true`,
+    { useNewUrlParser: true, userCreateIndex: true }
+  )
+  .then(() => {
+    console.log("successfully connected MongoDB");
+  })
+  .catch(err => console.log(err));
 
 app.listen(port, () => {
   console.log("Server listening on port 4000");
